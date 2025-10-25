@@ -32,7 +32,7 @@ An interactive Power BI dashboard visualizing renewable energy **capture price f
 - **Impact:** Supports long-term planning and scenario analysis for investors.  
 
 <p align="center">
-  <img src="assets/images/EU Power Market Forecast.PNG" alt="EU Power Market Forecast Dashboard" width="800"/>
+  <img src="assets/images/EU Power Market Forecast.PNG" alt="EU Power Market Forecsat Dashboard" width="800"/>
 </p>
 
 ---
