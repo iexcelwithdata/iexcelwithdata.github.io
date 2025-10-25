@@ -1,61 +1,95 @@
-# [Your Name] - Data Analysis Portfolio
+# Kuku Faruq Olabiyi - Data & Energy Analytics Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+Welcome! This repository contains the complete template and source code for my **professional, one-page data analytics portfolio**, hosted for free on **GitHub Pages**.
 
-## About This Portfolio Template
+---
 
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+## 📊 About This Portfolio
+This portfolio showcases my work at the intersection of **data analytics** and **energy market intelligence**.  
+It highlights how I apply analytical methods to turn complex datasets into **clear, actionable insights** that support decision-making in the **renewable energy and power markets**.
+
+My focus areas include:
+
+- Data visualization and storytelling for executive dashboards  
+- Energy market forecasting and scenario modeling  
+- Data modeling and transformation (Power Query, DAX, SQL)  
+- Translating data into strategy and alignment across teams  
+
+> 💬 *“Everyone talks about moving fast, but speed means nothing without alignment.  
+> And you can’t align on gut feeling — you need data.”*
+
+---
 
 ## 🚀 Projects
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+This portfolio highlights a selection of my most relevant work.  
+Each project includes links to live dashboards or GitHub repositories and preview images stored in the `assets/images` folder.
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+### 🌍 [EU Power Market Forecast Dashboard](https://github.com/iexcelwithdata/EU-Power-Market-Forecast-)
+An interactive Power BI dashboard visualizing renewable energy **capture price forecasts** across Great Britain and Germany.  
+- **Tools:** Power BI, DAX, Power Query, Excel  
+- **Focus:** Inflation-adjusted forecasts for Solar PV, Onshore & Offshore Wind  
+- **Impact:** Supports long-term planning and scenario analysis for investors.  
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+<p align="center">
+  <img src="assets/images/EU Power Market Forecast.PNG" alt="EU Power Market Forecast Dashboard" width="800"/>
+</p>
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+---
 
+### 🧠 [Datathon Energy Analytics Project](https://github.com/iexcelwithdata/Datathon)
+Developed a complete analytical solution during a renewable-energy data challenge.  
+- **Tools:** Python, Power BI, Excel  
+- **Focus:** Data cleaning, trend analysis, and time-series forecasting  
+- **Outcome:** Created a predictive framework to evaluate generation and price behavior.  
+
+<p align="center">
+  <img src="assets/images/Datathon.png" alt="Datathon Energy Analytics Project" width="800"/>
+</p>
+
+---
+
+### 🎵 [Chinook Music Store Dashboard](https://github.com/iexcelwithdata/Chinook-Music-Store)
+A Power BI business intelligence dashboard analyzing music store performance metrics.  
+- **Tools:** Power BI, SQL  
+- **Focus:** Revenue distribution, customer segmentation, and performance KPIs  
+- **Outcome:** Showcases analytical storytelling and visualization design.  
+
+<p align="center">
+  <img src="assets/images/Chinook Music Store.png" alt="Chinook Music Store Dashboard" width="800"/>
+</p>
+
+---
 
 ## 🛠️ Skills
 
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
+| Category | Tools & Technologies |
+|-----------|----------------------|
+| **Data Visualization** | Power BI, Excel, Power Query |
+| **Data Modeling** | DAX, SQL, Star Schema Design |
+| **Forecasting & Analysis** | Python (pandas, matplotlib), Time-Series Forecasting |
+| **Business Intelligence** | Power BI Service, Power Automate |
+| **Version Control** | Git, GitHub |
 
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
+---
 
-## 💡 How to Use This Template
+## 🌐 Connect with Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/kuku-faruq-olabiyi/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kuku%20Faruq%20Olabiyi-blue?logo=linkedin" />
+  </a>
+  &nbsp;
+  <a href="mailto:iexcelwithdata@gmail.com">
+    <img src="https://img.shields.io/badge/Email-iexcelwithdata%40gmail.com-red?logo=gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/iexcelwithdata">
+    <img src="https://img.shields.io/badge/GitHub-iexcelwithdata-black?logo=github" />
+  </a>
+</p>
 
-Creating your own portfolio from this template is a simple, four-step process.
+---
 
-### 1. Create a New Repository from this Template
-Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
-
-### 2. Name Your Repository for GitHub Pages
-This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
-
-### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
-
-### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
-- Create your favicon and add it to the root folder.
-
-Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+<p align="center">
+  <em>“Data is not just numbers — it’s alignment, clarity, and confidence.”</em>
+</p>
