@@ -1,29 +1,29 @@
 /* =========================================================
-   🌿 Minimal Executive Theme (Clean + Professional)
+   🤎 Warm Brown Executive Theme (Sophisticated + Professional)
    Author: Kuku Faruq Olabiyi
    Last Updated: 2025
    ========================================================= */
 
-/* --- 1. Variables (Modern Minimal Palette) --- */
+/* --- 1. Variables (Warm Brown Palette) --- */
 :root {
     /* --- Core Colors --- */
-    --primary-color: #1E293B;        /* Deep Neutral Blue-Gray */
-    --secondary-color: #64748B;      /* Muted Steel Gray */
-    --accent-color: #2563EB;         /* Refined Blue Accent */
+    --primary-color: #3E2723;        /* Deep Espresso Brown */
+    --secondary-color: #6D4C41;      /* Rich Mocha */
+    --accent-color: #A1887F;         /* Warm Taupe */
     
     /* --- Backgrounds --- */
-    --light-bg-color: #F9FAFB;       /* Subtle Off-White */
+    --light-bg-color: #FFF8F0;       /* Soft Cream */
     --card-bg-color: #FFFFFF;        /* Clean White Surface */
     --white-color: #FFFFFF;
 
     /* --- Text Colors --- */
-    --dark-text-color: #0F172A;      /* Charcoal Text */
-    --light-text-color: #6B7280;     /* Soft Gray for secondary text */
+    --dark-text-color: #3E2723;      /* Deep Brown Text */
+    --light-text-color: #795548;     /* Medium Brown for secondary text */
 
     /* --- Shadows & Borders --- */
-    --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.04);
-    --shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.08);
-    --border-color: #E5E7EB;
+    --shadow-light: 0 2px 8px rgba(62, 39, 35, 0.08);
+    --shadow-medium: 0 6px 20px rgba(62, 39, 35, 0.12);
+    --border-color: #EFEBE9;
 
     /* --- Fonts --- */
     --font-heading: 'Poppins', sans-serif;
@@ -66,9 +66,9 @@ a:hover {
     opacity: 0.8;
 }
 
-/* --- 3. Header --- */
+/* --- 3. Header with Gradient --- */
 header {
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #3E2723 0%, #5D4037 100%);
     color: var(--white-color);
     padding: 80px 0;
     text-align: center;
@@ -85,7 +85,7 @@ header h1 {
 header p {
     font-size: 1.2rem;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 35px;
 }
 
@@ -99,13 +99,13 @@ header p {
 }
 
 .social-links a:hover {
-    color: var(--accent-color);
+    color: #D7CCC8;
     transform: translateY(-3px);
 }
 
 /* --- 4. Navigation --- */
 nav {
-    background-color: rgba(30, 41, 59, 0.97);
+    background-color: rgba(62, 39, 35, 0.97);
     backdrop-filter: blur(6px);
     position: sticky;
     top: 0;
@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--accent-color);
+    color: #D7CCC8;
 }
 
 nav ul li a::after {
@@ -142,7 +142,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: #A1887F;
     transition: width 0.4s ease;
 }
 
@@ -180,20 +180,21 @@ nav ul li a:hover::after {
 .about-section {
   text-align: center;
   padding: 4rem 1.5rem;
+  background-color: var(--light-bg-color);
 }
 
 .section-title {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #222;
+  color: var(--primary-color);
   position: relative;
 }
 
 .section-underline {
   width: 60px;
   height: 4px;
-  background-color: #8b5e3c; /* Accent color */
+  background: linear-gradient(90deg, #8D6E63, #A1887F);
   margin: 0.5rem auto 2.5rem auto;
   border-radius: 2px;
 }
@@ -211,20 +212,21 @@ nav ul li a:hover::after {
   height: 260px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(62, 39, 35, 0.2);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border: 4px solid #D7CCC8;
 }
 
 .about-photo img:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(62, 39, 35, 0.3);
 }
 
 .about-info {
   max-width: 600px;
   text-align: left;
   font-size: 1rem;
-  color: #333;
+  color: var(--dark-text-color);
   line-height: 1.8;
 }
 
@@ -239,7 +241,6 @@ nav ul li a:hover::after {
     text-align: center;
   }
 }
-
 
 /* --- 5.5 Project Cards --- */
 .projects-grid {
@@ -256,23 +257,23 @@ nav ul li a:hover::after {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     display: flex;
     flex-direction: column;
+    border: 1px solid var(--border-color);
 }
 
 .project-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-medium);
+    border-color: var(--accent-color);
 }
 
-/* Add spacing between project cards */
 .project-card {
   margin-bottom: 3rem;
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 12px rgba(62, 39, 35, 0.1);
 }
 
-/* Ensure project image fits fully */
 .project-card img {
   width: 100%;
   height: auto;
@@ -283,7 +284,7 @@ nav ul li a:hover::after {
 .project-card img {
   width: 100%;
   height: auto;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-color);
   object-fit: contain;
 }
 
@@ -316,7 +317,7 @@ nav ul li a:hover::after {
 /* --- Buttons --- */
 .btn {
     display: inline-block;
-    background: var(--accent-color);
+    background: linear-gradient(135deg, #6D4C41, #8D6E63);
     color: var(--white-color);
     padding: 12px 18px;
     border-radius: 6px;
@@ -329,7 +330,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: #1D4ED8;
+    background: linear-gradient(135deg, #5D4037, #6D4C41);
     transform: translateY(-2px);
 }
 
@@ -406,23 +407,23 @@ nav ul li a:hover::after {
 
 /* --- SKILLS SECTION --- */
 .skills-section {
-  background-color: #f9f6f2;
+  background: linear-gradient(135deg, #FFF8F0 0%, #F5F5F5 100%);
   padding: 80px 0;
-  color: #3b2f2f;
+  color: var(--dark-text-color);
 }
 
 .skills-section .section-title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #3b2f2f;
+  color: var(--primary-color);
 }
 
 .skills-section .section-subtitle {
   text-align: center;
   font-size: 1rem;
   margin-bottom: 3rem;
-  color: #6b5c5c;
+  color: var(--light-text-color);
 }
 
 .skills-grid {
@@ -433,33 +434,36 @@ nav ul li a:hover::after {
 }
 
 .skill-card {
-  background-color: #fff;
+  background-color: var(--white-color);
   border-radius: 16px;
   padding: 2rem 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
+  box-shadow: var(--shadow-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .skill-card:hover {
   transform: translateY(-6px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--accent-color);
 }
 
 .skill-icon {
-  width: 50px;
-  height: 50px;
+  font-size: 2.5rem;
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 
 .skill-card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #2f231f;
+  color: var(--primary-color);
 }
 
 .skill-card p {
   font-size: 0.95rem;
-  color: #5c4a4a;
+  color: var(--light-text-color);
 }
 
 .resume-download {
@@ -468,21 +472,54 @@ nav ul li a:hover::after {
 }
 
 .resume-download .btn {
-  background-color: #8b5e3c;
-  color: #fff;
+  background: linear-gradient(135deg, #6D4C41, #8D6E63);
+  color: var(--white-color);
   padding: 12px 28px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .resume-download .btn:hover {
-  background-color: #704b2e;
+  background: linear-gradient(135deg, #5D4037, #6D4C41);
+  transform: translateY(-2px);
 }
 
+/* --- CERTIFICATIONS SECTION --- */
+.certifications-section {
+  background-color: var(--light-bg-color);
+  padding: 80px 0;
+}
+
+.certifications-section .section-title {
+  color: var(--primary-color);
+}
+
+.certifications-section .section-subtitle {
+  color: var(--light-text-color);
+}
+
+.cert-card {
+  background: var(--white-color);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--accent-color);
+}
 
 /* --- 7. Contact Form --- */
+#contact {
+  background-color: var(--white-color);
+}
+
 #contact .container {
     max-width: 800px;
 }
@@ -492,6 +529,7 @@ nav ul li a:hover::after {
     padding: 40px;
     border-radius: 10px;
     box-shadow: var(--shadow-light);
+    border: 1px solid var(--border-color);
 }
 
 .form-group {
@@ -521,7 +559,7 @@ nav ul li a:hover::after {
 .contact-form textarea:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 0 0 3px rgba(161, 136, 127, 0.15);
     background: var(--white-color);
 }
 
@@ -536,7 +574,7 @@ nav ul li a:hover::after {
 
 /* --- 8. Footer --- */
 footer {
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #3E2723 0%, #5D4037 100%);
     color: var(--white-color);
     text-align: center;
     padding: 40px 0;
@@ -544,7 +582,7 @@ footer {
 }
 
 footer p {
-    opacity: 0.75;
+    opacity: 0.85;
     font-size: 0.95rem;
 }
 
