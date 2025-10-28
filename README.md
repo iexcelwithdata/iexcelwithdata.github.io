@@ -64,7 +64,7 @@ A Power BI business intelligence dashboard analyzing music store performance met
 *A Power BI & DAX-driven exploration of broadband accessibility and telecom tower distribution in Connecticut.*
 
 - **Status:** 🚧 *In Progress*  
-- **Tools:** Power BI, DAX, Power Query (M), SQL, Excel  
+- **Tools:** Power BI, DAX, Power Query (M)  
 - **Focus:** Broadband equity, tower density, provider overlap, infrastructure planning  
 - **Impact Goal:** Identify underserved towns and quantify the “tower gap” affecting statewide connectivity.  
 - **Next Step:** Integrate forecast models for tower capacity and regional coverage efficiency.
