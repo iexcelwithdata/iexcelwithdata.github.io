@@ -1,4 +1,4 @@
-# Kuku Faruq Olabiyi - Data & Energy Analytics Portfolio
+# Kuku Faruq Olabiyi - Data Analyst Portfolio
 
 Welcome! This repository contains the complete template and source code for my **professional, one-page data analytics portfolio**, hosted for free on **GitHub Pages**.
 
@@ -58,6 +58,22 @@ A Power BI business intelligence dashboard analyzing music store performance met
 <p align="center">
   <img src="assets/images/Chinook Music Store.png" alt="Chinook Music Store Dashboard" width="800"/>
 </p>
+
+---
+### 📡 [Telecommunications Infrastructure & Broadband Equity Analysis — Connecticut](https://github.com/iexcelwithdata/Connecticut-Telecom-Analysis)
+*A Power BI & DAX-driven exploration of broadband accessibility and telecom tower distribution in Connecticut.*
+
+- **Status:** 🚧 *In Progress*  
+- **Tools:** Power BI, DAX, Power Query (M), SQL, Excel  
+- **Focus:** Broadband equity, tower density, provider overlap, infrastructure planning  
+- **Impact Goal:** Identify underserved towns and quantify the “tower gap” affecting statewide connectivity.  
+- **Next Step:** Integrate forecast models for tower capacity and regional coverage efficiency.
+
+<p align="center">
+  <img src="assets/images/Telecommunications in Conneticut.png" alt="Telecom Infrastructure Dashboard Preview" width="800"/>
+</p>
+
+> 📈 *A data-driven view of broadband inequality — helping policymakers and telecom providers plan smarter infrastructure expansion.*
 
 ---
 
