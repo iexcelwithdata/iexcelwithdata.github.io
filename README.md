@@ -51,7 +51,7 @@ Developed a complete analytical solution during a renewable-energy data challeng
 
 ### 🎵 [Chinook Music Store Dashboard](https://github.com/iexcelwithdata/Chinook-Music-Store)
 A Power BI business intelligence dashboard analyzing music store performance metrics.  
-- **Tools:** Power BI, SQL  
+- **Tools:** Power BI, SQL, Python  
 - **Focus:** Revenue distribution, customer segmentation, and performance KPIs  
 - **Outcome:** Showcases analytical storytelling and visualization design.  
 
@@ -83,7 +83,6 @@ A Power BI business intelligence dashboard analyzing music store performance met
 |-----------|----------------------|
 | **Data Visualization** | Power BI, Excel, Power Query |
 | **Data Modeling** | DAX, SQL, Star Schema Design |
-| **Forecasting & Analysis** | Python (pandas, matplotlib), Time-Series Forecasting |
 | **Business Intelligence** | Power BI Service, Power Automate |
 | **Version Control** | Git, GitHub |
 
