@@ -314,24 +314,19 @@ nav ul li a:hover::after {
     margin-top: auto;
 }
 
-.skill-tag {
-    background: linear-gradient(135deg, #6D4C41, #8D6E63);  /* Matches your brown theme */
-    color: white;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    transition: transform 0.2s ease;
-    display: inline-block;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+.project-skills-text {
+    font-size: 0.9rem;
+    color: #795548;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-style: italic;
 }
 
-.skill-tag:hover {
-    transform: translateY(-2px);
-    background: linear-gradient(135deg, #5D4037, #6D4C41);
-    box-shadow: 0 4px 8px rgba(62, 39, 35, 0.2);
+.project-skills-text strong {
+    color: #3E2723;
+    font-weight: 600;
+    font-style: normal;
 }
-
 /* --- Buttons --- */
 .btn {
     display: inline-block;
