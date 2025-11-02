@@ -314,6 +314,24 @@ nav ul li a:hover::after {
     margin-top: auto;
 }
 
+.skill-tag {
+    background: linear-gradient(135deg, #6D4C41, #8D6E63);  /* Matches your brown theme */
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skill-tag:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #5D4037, #6D4C41);
+    box-shadow: 0 4px 8px rgba(62, 39, 35, 0.2);
+}
+
 /* --- Buttons --- */
 .btn {
     display: inline-block;
